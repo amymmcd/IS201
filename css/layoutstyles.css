@@ -1,0 +1,124 @@
+body {
+    background-color: #f9f1f1;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight:lighter;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+.common {
+    /* background-color: rgb(242, 201, 201); */
+    /* border: 1px solid rgb(109, 60, 60); */
+    position: absolute;
+}
+
+#navigation {
+top: 0px;
+left: 0px;
+right: 0px;
+height: 60px;
+padding-top: 27px;
+padding-left: 110px;
+padding-right: 110px;
+/* background-color: burlywood; */
+z-index: 2;
+color: white;
+font-weight: bold;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: left;
+text-shadow: 0 0 20px black;
+font-size: 15px;
+}
+
+#navigation a:visited {
+    color: white;
+}
+
+#navigation a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #9c5757;
+}
+
+a:visited {
+    text-decoration: none;
+    decoration: none;
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 530px;
+    z-index: 1;
+}
+
+/* .leftmenu {
+    top: 531px;
+    left: 0px;
+    width: 275px;
+}
+
+.rightmenu {
+    top: 531px;
+    right: 0px;
+    left: 275px;
+} */
+
+.mainmenu {
+    top: 530px;
+    /* left: 276px;
+    right: 276px; */
+    left: 19%;
+    right: 19%;
+    padding-left: 100px;
+    padding-right: 100px; 
+    padding-top: 60px;
+    padding-bottom: 125px;
+}
+
+.footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    position: fixed;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    color: #9c5757;
+    background-color: #f9f1f1;
+}
+
+.imgbox {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.backtotop {
+    font-style: italic;
+    text-align: right;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
